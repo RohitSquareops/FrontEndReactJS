@@ -3,7 +3,7 @@ import _superagent from 'superagent';
 
 const superagent = superagentPromise(_superagent, global.Promise);
 
-const API_ROOT = process.env.DOMAIN_URL;
+const API_ROOT = 'https://rohitsquare.rtd.squareops.co.in/api';
 
 const encode = encodeURIComponent;
 const responseBody = res => res.body;
